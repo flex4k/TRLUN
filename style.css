@@ -1,0 +1,90 @@
+ @import url("https://fonts.googleapis.com/css2?family=Lalezar&display=swap");
+ @import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@300;700&display=swap");
+
+body {
+  font-family: "tajawal" , sans-serif ;
+    font-size: 15pt;
+    background-image: url(yyy.jpg);
+    background-size : cover ;
+  background-position : center ;
+  background-repeat : on-repeat ;
+  background-attachment : fixed;
+  width: auto ;
+  text-align: center ;
+  margin-top: 30px
+
+
+}
+.q {
+  color: #fff;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  line-height: 30px ;
+  text-shadow: 0px 0px 2px #7B5832
+
+}
+.q h2 {
+  background: linear-gradient(90deg,#7B5832, #7B5832) ;
+  border-radius: 15px 15px 0px 0px ;
+  margin: 0px ;
+  padding: 10px ;
+
+}
+
+.q h4 {
+    border-radius: 15px;
+    margin: 0px;
+    padding: 10px;
+    border: 1px solid white ;
+    border-radius: 0px 0px 15px 15px
+}
+.ww {
+  display: block ; 
+  flex-direction: row ;
+  justify-content: center ;
+  align-items: center ;
+  margin-left: auto ;
+  margin-right: auto ;
+
+
+
+}
+.ww img {
+
+  width: 70%;
+  justify-content: center;
+  align-content: center ;
+  align-items: center;
+  ;display: block;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto
+
+}
+
+
+
+.ww a img:hover {
+  border: 3px salmon ;
+
+  background: linear-gradient(90deg,#444442, #A77A3F) ;
+  border-radius: 50px ;
+  margin-top: 0px ;
+transition: all 0.5s cubic-bezier(.48,-0.28,.41,1.4);
+width: 75% ;
+
+}
+
+
+.www {
+  margin-top: 50% ;
+  line-height: 30px
+}
+
+@media screen and (max-width: 600px)
+{
+  .www {
+  margin-top: 20%
+}
+}
